@@ -79,7 +79,7 @@ input[type="password"] {
 input[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: blue;
+  background-color: green;
   color: #fff;
   border: none;
   border-radius: 5px;
