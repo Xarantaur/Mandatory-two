@@ -40,7 +40,7 @@ router.post("/api/login", async (req, res) => {
   if(result){
     res.send({ data: true})
   }
-  await sendEmail()
+  await sendEmail(email)
 });
 
 export default router;

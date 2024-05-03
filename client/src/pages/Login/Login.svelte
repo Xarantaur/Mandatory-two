@@ -46,43 +46,48 @@
 
 <style>
 
+
 .container {
-  max-width: 300px;
-  margin: auto;
-  padding: 20px;
+  width: 300px;
+  margin: 50px auto;
+}
+
+
+form {
   background-color: #f9f9f9;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container h2 {
+
+h2 {
   margin-bottom: 20px;
-  text-align: center;
+  color: darkgreen;
 }
 
-.container input[type="email"],
-.container input[type="password"] {
-  width: 100%;
+
+input[type="email"],
+input[type="password"] {
+  width: 80%;
   padding: 10px;
-  margin: 10px 0;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
+  border-radius: 5px;
 }
 
-.container input[type="submit"] {
+input[type="submit"] {
   width: 100%;
   padding: 10px;
-  margin-top: 10px;
-  background-color: #4caf50;
+  background-color: blue;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.container input[type="submit"]:hover {
-  background-color: #45a049;
+input[type="submit"]:hover {
+  background-color: navy;
 }
 
 </style>

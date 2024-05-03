@@ -14,8 +14,6 @@
 
 <Router>
   <nav>
-      <h1>Welcome</h1>
-
       <Link to='/'>Home</Link>
       <Link to='/Signup'>Signup</Link>
       <Link to='/Profile'>Profile</Link>
